@@ -7,7 +7,6 @@ import 'package:nmg_assignment/Model/posts_model.dart';
 import 'package:nmg_assignment/Services/api_endpoints.dart';
 import '../Model/authers_model.dart';
 class PostProvider extends ChangeNotifier {
-
   bool postLoading = true;
   late bool singlePostLoading;
   bool authorLoading = true;
