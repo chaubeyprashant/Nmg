@@ -5,7 +5,6 @@ import 'package:http/http.dart' as http;
 import 'package:http/http.dart';
 import 'package:nmg_assignment/Model/posts_model.dart';
 import 'package:nmg_assignment/Services/api_endpoints.dart';
-
 import '../Model/authers_model.dart';
 class PostProvider extends ChangeNotifier {
 
