@@ -39,6 +39,7 @@ class PostProvider extends ChangeNotifier {
   getSinglePostDataAPI(String id) async {
     singlePostLoading = true;
     notifyListeners();
+
     try {
       Response response = await http.get(Uri.parse("${AppUrl.post}/$id"), headers: {'Cache-Control': 'no-cache'},);
       var data = jsonDecode(response.body.toString());
